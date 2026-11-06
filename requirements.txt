@@ -1,0 +1,10 @@
+# MindScope — Core Runtime Dependencies
+# Python 3.13.3 Compatible
+fastapi==0.141.1
+uvicorn==0.52.4
+pydantic==2.13.4
+joblib==1.5.3
+pandas==3.0.2
+scikit-learn==1.8.0
+numpy==2.4.4
+scipy==1.17.1

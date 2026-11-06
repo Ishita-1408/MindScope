@@ -1,0 +1,131 @@
+{
+  "outer_r2_mean": 0.8404385237019613,
+  "outer_r2_std": 0.012086351924471269,
+  "outer_mae_mean": 0.375275860193075,
+  "outer_mae_std": 0.015916780659448328,
+  "outer_rmse_mean": 0.5016521761665148,
+  "outer_rmse_std": 0.02172053673611593,
+  "outer_tol_0.1_mean": 20.468138156550175,
+  "outer_tol_0.2_mean": 37.50619251992642,
+  "outer_train_r2_mean": 0.9545015146109668,
+  "outer_overfit_gap_mean": 0.11406299090900551,
+  "total_nested_cv_time_sec": 471.02,
+  "outer_folds": [
+    {
+      "r2": 0.8221728495011267,
+      "mae": 0.3930313925631,
+      "rmse": 0.5269806275348321,
+      "tol_0.1": 19.0,
+      "tol_0.2": 36.285714285714285,
+      "train_r2": 0.9529693494238787,
+      "overfit_gap": 0.130796499922752,
+      "selected_config": "M4c_RF_Full_Exclude",
+      "selected_algorithm": "RandomForestRegressor",
+      "selected_features": "Full",
+      "selected_activity_strategy": "clip",
+      "inner_cv_best_r2": 0.8326750208061771,
+      "best_params": {
+        "model__n_estimators": 100,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 2,
+        "model__max_depth": 15
+      },
+      "training_time_sec": 39.63,
+      "prediction_time_sec": 0.0353,
+      "outer_fold": 1
+    },
+    {
+      "r2": 0.8538577466646016,
+      "mae": 0.35588861360861357,
+      "rmse": 0.48005598048422615,
+      "tol_0.1": 22.0,
+      "tol_0.2": 39.714285714285715,
+      "train_r2": 0.9604089748273329,
+      "overfit_gap": 0.10655122816273133,
+      "selected_config": "M4a_RF_Full_Clip",
+      "selected_algorithm": "RandomForestRegressor",
+      "selected_features": "Full",
+      "selected_activity_strategy": "clip",
+      "inner_cv_best_r2": 0.8352727163271878,
+      "best_params": {
+        "model__n_estimators": 100,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 2,
+        "model__max_depth": null
+      },
+      "training_time_sec": 42.65,
+      "prediction_time_sec": 0.0336,
+      "outer_fold": 2
+    },
+    {
+      "r2": 0.8536148102022194,
+      "mae": 0.35687666765773907,
+      "rmse": 0.480330793051212,
+      "tol_0.1": 22.857142857142858,
+      "tol_0.2": 39.85714285714286,
+      "train_r2": 0.96576353200573,
+      "overfit_gap": 0.11214872180351054,
+      "selected_config": "M4a_RF_Full_Clip",
+      "selected_algorithm": "RandomForestRegressor",
+      "selected_features": "Full",
+      "selected_activity_strategy": "clip",
+      "inner_cv_best_r2": 0.8363549027915251,
+      "best_params": {
+        "model__n_estimators": 150,
+        "model__min_samples_split": 2,
+        "model__min_samples_leaf": 2,
+        "model__max_depth": null
+      },
+      "training_time_sec": 48.49,
+      "prediction_time_sec": 0.0472,
+      "outer_fold": 3
+    },
+    {
+      "r2": 0.83832073962731,
+      "mae": 0.3810224510512112,
+      "rmse": 0.4925345598903082,
+      "tol_0.1": 18.025751072961373,
+      "tol_0.2": 35.336194563662374,
+      "train_r2": 0.9329719053061682,
+      "overfit_gap": 0.09465116567885823,
+      "selected_config": "M3a_HistGBR_Full_Clip",
+      "selected_algorithm": "HistGradientBoostingRegressor",
+      "selected_features": "Full",
+      "selected_activity_strategy": "clip",
+      "inner_cv_best_r2": 0.8292342881386828,
+      "best_params": {
+        "model__min_samples_leaf": 15,
+        "model__max_iter": 150,
+        "model__max_depth": 8,
+        "model__learning_rate": 0.1,
+        "model__l2_regularization": 0.0
+      },
+      "training_time_sec": 43.14,
+      "prediction_time_sec": 0.0291,
+      "outer_fold": 4
+    },
+    {
+      "r2": 0.8342264725145487,
+      "mae": 0.38956017608471116,
+      "rmse": 0.5283589198719953,
+      "tol_0.1": 20.457796852646638,
+      "tol_0.2": 36.33762517882689,
+      "train_r2": 0.9603938114917242,
+      "overfit_gap": 0.12616733897717547,
+      "selected_config": "M4c_RF_Full_Exclude",
+      "selected_algorithm": "RandomForestRegressor",
+      "selected_features": "Full",
+      "selected_activity_strategy": "clip",
+      "inner_cv_best_r2": 0.8331923831677097,
+      "best_params": {
+        "model__n_estimators": 150,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 2,
+        "model__max_depth": null
+      },
+      "training_time_sec": 49.43,
+      "prediction_time_sec": 0.056,
+      "outer_fold": 5
+    }
+  ]
+}

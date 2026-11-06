@@ -1,0 +1,51 @@
+{
+  "model_metadata": {
+    "model_identifier": "mindscope_rf_v1",
+    "version": "1.0.0",
+    "configuration_id": "M4a_RF_Full_Clip",
+    "algorithm": "RandomForestRegressor",
+    "feature_schema": "Full (12 predictors)",
+    "activity_strategy": "clip",
+    "optimal_hyperparameters": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 2,
+      "model__min_samples_split": 2,
+      "model__n_estimators": 150
+    },
+    "training_sample_size": 3498,
+    "holdout_sample_size": 1500,
+    "model_artifact_path": "artifacts\\models\\mindscope_rf_v1.joblib",
+    "model_artifact_size_bytes": 4955147
+  },
+  "training_set_metrics": {
+    "r2": 0.9678926530891939,
+    "mae": 0.16312722644866734,
+    "rmse": 0.22528255449371445,
+    "tol_0.1": 43.3390508862207,
+    "tol_0.2": 70.26872498570611
+  },
+  "holdout_test_metrics": {
+    "r2": 0.8710506593585736,
+    "mae": 0.3581890621600622,
+    "rmse": 0.4759030058410844,
+    "tol_0.1": 19.8,
+    "tol_0.2": 38.666666666666664,
+    "inference_time_sec": 0.1432356834411621,
+    "inference_latency_per_sample_ms": 0.0954904556274414,
+    "n_holdout_samples": 1500
+  },
+  "nested_cv_benchmark": {
+    "outer_r2_mean": 0.8404385237019613,
+    "outer_r2_std": 0.012086351924471269,
+    "outer_mae_mean": 0.375275860193075,
+    "outer_mae_std": 0.015916780659448328,
+    "outer_rmse_mean": 0.5016521761665148,
+    "outer_rmse_std": 0.02172053673611593
+  },
+  "generalization_alignment": {
+    "holdout_r2": 0.8710506593585736,
+    "within_nested_cv_1std": false,
+    "overfit_gap_r2": 0.0968419937306203,
+    "overfit_gap_mae": 0.19506183571139485
+  }
+}

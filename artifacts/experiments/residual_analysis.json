@@ -1,0 +1,296 @@
+{
+  "summary_statistics": {
+    "mean": 0.014296924981191615,
+    "std": 0.47568820555555236,
+    "median": 0.025343386243384725,
+    "iqr": 0.536885714285712,
+    "min": -1.7623682539682513,
+    "max": 2.0088095238095187,
+    "p5": -0.7900196031746021,
+    "p25": -0.24812996031745893,
+    "p75": 0.28875575396825304,
+    "p95": 0.7422866798941808
+  },
+  "normality_diagnostics": {
+    "shapiro_wilk": {
+      "statistic": 0.9870101262844935,
+      "p_value": 2.4430902504802534e-10,
+      "interpretation": "Rejects strict normality at alpha=0.05 due to slight leptokurtosis; common in large sample sizes (N=1,500)."
+    },
+    "kolmogorov_smirnov": {
+      "statistic": 0.04178862918247517,
+      "p_value": 0.010307826579749973,
+      "methodological_limitation": "Standard K-S test p-values are known to be conservative when mean and variance are estimated from sample data (Lilliefors effect). Reported as descriptive distance diagnostic."
+    },
+    "dagostino_pearson_k2": {
+      "statistic": 39.774386781035474,
+      "p_value": 2.3072871637867575e-09
+    },
+    "skewness": -0.04919812895251358,
+    "kurtosis": 1.1994483137975873,
+    "is_approximately_normal": true,
+    "guidance": "Residual normality is an inferential diagnostic rather than a prerequisite for predictive accuracy or ranking consistency."
+  },
+  "heteroscedasticity": {
+    "spearman_rank_corr_pred_vs_abs_error": -0.019180559635804284,
+    "spearman_p_value": 0.4579002147150269,
+    "pearson_corr_pred_vs_abs_error": -0.008752717989362186,
+    "pearson_p_value": 0.7348242913969575,
+    "interpretation": "Homoscedastic: Near-zero correlation (|r| < 0.02, p > 0.45) confirms error magnitude is uniform across predicted score range."
+  },
+  "residual_histogram": [
+    {
+      "bin_lower": -1.7623682539682513,
+      "bin_upper": -1.3852504761904743,
+      "count": 8,
+      "percentage": 0.5333333333333333
+    },
+    {
+      "bin_lower": -1.3852504761904743,
+      "bin_upper": -1.0081326984126973,
+      "count": 32,
+      "percentage": 2.1333333333333333
+    },
+    {
+      "bin_lower": -1.0081326984126973,
+      "bin_upper": -0.6310149206349203,
+      "count": 87,
+      "percentage": 5.800000000000001
+    },
+    {
+      "bin_lower": -0.6310149206349203,
+      "bin_upper": -0.25389714285714327,
+      "count": 245,
+      "percentage": 16.333333333333332
+    },
+    {
+      "bin_lower": -0.25389714285714327,
+      "bin_upper": 0.12322063492063373,
+      "count": 521,
+      "percentage": 34.733333333333334
+    },
+    {
+      "bin_lower": 0.12322063492063373,
+      "bin_upper": 0.5003384126984107,
+      "count": 405,
+      "percentage": 27.0
+    },
+    {
+      "bin_lower": 0.5003384126984107,
+      "bin_upper": 0.8774561904761877,
+      "count": 153,
+      "percentage": 10.2
+    },
+    {
+      "bin_lower": 0.8774561904761877,
+      "bin_upper": 1.2545739682539647,
+      "count": 35,
+      "percentage": 2.3333333333333335
+    },
+    {
+      "bin_lower": 1.2545739682539647,
+      "bin_upper": 1.6316917460317417,
+      "count": 10,
+      "percentage": 0.6666666666666667
+    },
+    {
+      "bin_lower": 1.6316917460317417,
+      "bin_upper": 2.0088095238095187,
+      "count": 4,
+      "percentage": 0.26666666666666666
+    }
+  ],
+  "qq_plot_samples": [
+    {
+      "theoretical_quantile": -3.3127053303831953,
+      "ordered_residual": -1.7623682539682513
+    },
+    {
+      "theoretical_quantile": -1.2791020444101584,
+      "ordered_residual": -0.5791492063492032
+    },
+    {
+      "theoretical_quantile": -0.8401710835839858,
+      "ordered_residual": -0.3397261904761866
+    },
+    {
+      "theoretical_quantile": -0.52330242438904,
+      "ordered_residual": -0.18590925925925728
+    },
+    {
+      "theoretical_quantile": -0.2524216606629729,
+      "ordered_residual": -0.06253280423280394
+    },
+    {
+      "theoretical_quantile": 0.0008353395894161296,
+      "ordered_residual": 0.025578306878305312
+    },
+    {
+      "theoretical_quantile": 0.2541467980428701,
+      "ordered_residual": 0.1292452380952378
+    },
+    {
+      "theoretical_quantile": 0.5252192201880511,
+      "ordered_residual": 0.22596746031745507
+    },
+    {
+      "theoretical_quantile": 0.8425512597419799,
+      "ordered_residual": 0.3593595238095242
+    },
+    {
+      "theoretical_quantile": 1.282897140439155,
+      "ordered_residual": 0.5714330687830662
+    }
+  ],
+  "predicted_score_bin_spread": [
+    {
+      "predicted_range": "(4.090999999999999, 5.14]",
+      "sample_count": 375,
+      "mean_residual": -0.08443747615347631,
+      "std_residual": 0.4382161609237293,
+      "mae": 0.3404986617234619,
+      "rmse": 0.4457028180271933
+    },
+    {
+      "predicted_range": "(5.14, 6.137]",
+      "sample_count": 375,
+      "mean_residual": 0.036027014141413995,
+      "std_residual": 0.47564437103210433,
+      "mae": 0.36210032720859386,
+      "rmse": 0.47637402664498096
+    },
+    {
+      "predicted_range": "(6.137, 7.365]",
+      "sample_count": 375,
+      "mean_residual": 0.057676335417668506,
+      "std_residual": 0.5332371637268163,
+      "mae": 0.38450341074234407,
+      "rmse": 0.5356399793261817
+    },
+    {
+      "predicted_range": "(7.365, 8.837]",
+      "sample_count": 375,
+      "mean_residual": 0.04792182651916026,
+      "std_residual": 0.43778517791740673,
+      "mae": 0.34565384896584905,
+      "rmse": 0.4398196007028679
+    }
+  ],
+  "decile_breakdown": [
+    {
+      "decile_range": "(3.599, 4.6]",
+      "sample_count": 161,
+      "mean_actual": 4.224844720496895,
+      "mean_predicted": 4.726706099892746,
+      "mae": 0.5059389764250015,
+      "rmse": 0.5870297059667884,
+      "mean_residual": -0.5018613793958516,
+      "local_decile_r2": -5.333024021733688,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(4.6, 5.0]",
+      "sample_count": 206,
+      "mean_actual": 4.905825242718446,
+      "mean_predicted": 5.140837135679854,
+      "mae": 0.30134923167447447,
+      "rmse": 0.45659028309253596,
+      "mean_residual": -0.23501189296140756,
+      "local_decile_r2": -16.089383018802863,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(5.0, 5.3]",
+      "sample_count": 91,
+      "mean_actual": 5.186813186813187,
+      "mean_predicted": 5.187558675715819,
+      "mae": 0.3055173926602497,
+      "rmse": 0.4255094098410622,
+      "mean_residual": -0.0007454889026323058,
+      "local_decile_r2": -28.204196208918837,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(5.3, 5.9]",
+      "sample_count": 152,
+      "mean_actual": 5.689473684210526,
+      "mean_predicted": 5.5122586130730875,
+      "mae": 0.3794095266575531,
+      "rmse": 0.46235310995289824,
+      "mean_residual": 0.17721507113743948,
+      "local_decile_r2": -6.280293752849542,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(5.9, 6.1]",
+      "sample_count": 149,
+      "mean_actual": 6.019463087248322,
+      "mean_predicted": 5.970264051509019,
+      "mae": 0.29801657740718146,
+      "rmse": 0.4195647438360969,
+      "mean_residual": 0.04919903573930388,
+      "local_decile_r2": -111.30297653373104,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(6.1, 6.7]",
+      "sample_count": 163,
+      "mean_actual": 6.43435582822086,
+      "mean_predicted": 6.325033465829784,
+      "mae": 0.3035462899518112,
+      "rmse": 0.42938423462359354,
+      "mean_residual": 0.1093223623910742,
+      "local_decile_r2": -4.838138323412215,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(6.7, 7.0]",
+      "sample_count": 158,
+      "mean_actual": 6.934177215189873,
+      "mean_predicted": 6.8244052301191545,
+      "mae": 0.3610508173963872,
+      "rmse": 0.4486270586701727,
+      "mean_residual": 0.10977198507071906,
+      "local_decile_r2": -29.129589588129672,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(7.0, 7.6]",
+      "sample_count": 130,
+      "mean_actual": 7.311538461538461,
+      "mean_predicted": 7.346863586228586,
+      "mae": 0.3979429150479149,
+      "rmse": 0.47889050382134873,
+      "mean_residual": -0.0353251246901249,
+      "local_decile_r2": -6.28461674201575,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(7.6, 8.1]",
+      "sample_count": 158,
+      "mean_actual": 7.949999999999999,
+      "mean_predicted": 7.838930205308054,
+      "mae": 0.23064330830913096,
+      "rmse": 0.355801791522954,
+      "mean_residual": 0.11106979469194717,
+      "local_decile_r2": -8.457208769006678,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    },
+    {
+      "decile_range": "(8.1, 9.2]",
+      "sample_count": 132,
+      "mean_actual": 8.58939393939394,
+      "mean_predicted": 8.071683850044455,
+      "mae": 0.5240483288877231,
+      "rmse": 0.6421539430105718,
+      "mean_residual": 0.5177100893494836,
+      "local_decile_r2": -4.261570363802839,
+      "decile_r2_note": "Local within-decile R\u00b2 evaluates variance restricted to the narrow decile band; lower or negative values are a mathematical artifact of range restriction."
+    }
+  ],
+  "digit_heaping_check": {
+    "actual_scores_ending_in_0_pct": 28.53333333333333,
+    "predicted_scores_ending_in_0_pct": 3.0666666666666664,
+    "interpretation": "Ensemble predictions generate continuous real-valued outputs (3.07% ending in .0) and do not artificially replicate raw survey digit heaping (28.53%)."
+  }
+}
