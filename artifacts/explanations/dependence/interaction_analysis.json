@@ -1,0 +1,1006 @@
+{
+  "sample_size": 10,
+  "execution_time_seconds": 139.1528,
+  "mean_abs_interaction_matrix_12x12": [
+    [
+      0.02097594880567544,
+      0.0011406840728269002,
+      0.010756269653810858,
+      0.0010250240177721492,
+      0.004727936569494888,
+      0.003685639452032297,
+      0.011036054053976067,
+      0.007755021202369383,
+      0.004533423474139388,
+      0.0051516806136069695,
+      0.01352636031893091,
+      0.0005653517026536026
+    ],
+    [
+      0.0011406840728269024,
+      0.00784688898642007,
+      0.001394453879679727,
+      0.0006147121197549139,
+      0.0024632952531537093,
+      0.0011076419346926938,
+      0.003656087726741396,
+      0.0031736844590916345,
+      0.0015284045672289384,
+      0.001082737898565717,
+      0.004348767398405309,
+      0.0007503496305057047
+    ],
+    [
+      0.010756269653810905,
+      0.001394453879679734,
+      0.03986986060216691,
+      0.001500996574102691,
+      0.015693193835947916,
+      0.004813588222788113,
+      0.043574637442146555,
+      0.010024939746221938,
+      0.004538001107881538,
+      0.006151026897846965,
+      0.019308311195355688,
+      0.0010204692079668035
+    ],
+    [
+      0.0010250240177720658,
+      0.000614712119754933,
+      0.0015009965741027164,
+      0.007575599245614186,
+      0.0011732508936033797,
+      0.0009563268417252463,
+      0.0038793162050800695,
+      0.0017884224732390326,
+      0.0007813536830926577,
+      0.0012254592568878406,
+      0.0037982123276201563,
+      0.0004281457857563246
+    ],
+    [
+      0.004727936569494896,
+      0.002463295253153708,
+      0.015693193835947885,
+      0.0011732508936033673,
+      0.027050328757575536,
+      0.0038699979144523034,
+      0.04191268862962113,
+      0.00551823914751548,
+      0.002329817013697954,
+      0.005586187133004427,
+      0.016379735393107935,
+      0.0007370313399992503
+    ],
+    [
+      0.0036856394520322798,
+      0.0011076419346926973,
+      0.004813588222788097,
+      0.0009563268417252371,
+      0.0038699979144523264,
+      0.05485250538708185,
+      0.023105186750638756,
+      0.0066165483280399935,
+      0.0038068732732911385,
+      0.0018246325747001927,
+      0.01900191067037821,
+      0.0014328735788646774
+    ],
+    [
+      0.011036054053976058,
+      0.0036560877267414146,
+      0.043574637442146506,
+      0.003879316205080052,
+      0.0419126886296211,
+      0.02310518675063876,
+      1.0638845326145268,
+      0.03819196429805042,
+      0.02440270305060611,
+      0.01711815161747819,
+      0.17749648169731003,
+      0.008067789364110107
+    ],
+    [
+      0.007755021202369402,
+      0.0031736844590916054,
+      0.010024939746221932,
+      0.001788422473239018,
+      0.00551823914751551,
+      0.006616548328039988,
+      0.038191964298050426,
+      0.06624560397905338,
+      0.006940697283588096,
+      0.007271061609301929,
+      0.020527554036808816,
+      0.0017353332868316244
+    ],
+    [
+      0.004533423474139433,
+      0.0015284045672289363,
+      0.004538001107881534,
+      0.0007813536830926752,
+      0.0023298170136979482,
+      0.00380687327329115,
+      0.02440270305060622,
+      0.006940697283588091,
+      0.02323942037220744,
+      0.004321019081649088,
+      0.01459410666499529,
+      0.000729803772448396
+    ],
+    [
+      0.005151680613606979,
+      0.0010827378985657982,
+      0.006151026897846976,
+      0.0012254592568879054,
+      0.005586187133004407,
+      0.001824632574700175,
+      0.017118151617478206,
+      0.0072710616093019185,
+      0.004321019081649095,
+      0.0258395330154287,
+      0.01693774431050176,
+      0.0009724119904803615
+    ],
+    [
+      0.013526360318930845,
+      0.0043487673984053165,
+      0.01930831119535571,
+      0.0037982123276202526,
+      0.01637973539310795,
+      0.019001910670378215,
+      0.1774964816973101,
+      0.020527554036808875,
+      0.014594106664995329,
+      0.01693774431050174,
+      0.34506791942727466,
+      0.0049276991315077515
+    ],
+    [
+      0.000565351702653607,
+      0.0007503496305057116,
+      0.0010204692079668087,
+      0.00042814578575632817,
+      0.000737031339999247,
+      0.0014328735788646722,
+      0.008067789364110104,
+      0.0017353332868316174,
+      0.0007298037724484056,
+      0.0009724119904803685,
+      0.004927699131507738,
+      0.009231270035942953
+    ]
+  ],
+  "predictor_columns": [
+    "Age",
+    "Gender",
+    "Country",
+    "Academic_Level",
+    "Most_Used_Platform",
+    "Purpose_Of_Use",
+    "Avg_Daily_Usage_Hours",
+    "Daily_Unlocks",
+    "Study_Hours",
+    "Physical_Activity_Hours",
+    "Sleep_Hours_Per_Night",
+    "Stress_Level"
+  ],
+  "symmetry_max_error": 1.0755285551056204e-16,
+  "top_pairwise_interactions": [
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.17749648169731003,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Sleep Duration",
+      "rank": 1
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.043574637442146555,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 2
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.04191268862962113,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 3
+    },
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.03819196429805042,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 4
+    },
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.02440270305060611,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 5
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.023105186750638756,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 6
+    },
+    {
+      "feature_a": "Daily_Unlocks",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.020527554036808816,
+      "feature_a_display": "Daily Device Unlocks",
+      "feature_b_display": "Sleep Duration",
+      "rank": 7
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.019308311195355688,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Sleep Duration",
+      "rank": 8
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01900191067037821,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Sleep Duration",
+      "rank": 9
+    },
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.01711815161747819,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 10
+    },
+    {
+      "feature_a": "Physical_Activity_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01693774431050176,
+      "feature_a_display": "Daily Physical Activity",
+      "feature_b_display": "Sleep Duration",
+      "rank": 11
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.016379735393107935,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Sleep Duration",
+      "rank": 12
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Most_Used_Platform",
+      "mean_abs_interaction": 0.015693193835947916,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Most Used Social Platform",
+      "rank": 13
+    },
+    {
+      "feature_a": "Study_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01459410666499529,
+      "feature_a_display": "Daily Study Duration",
+      "feature_b_display": "Sleep Duration",
+      "rank": 14
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01352636031893091,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Sleep Duration",
+      "rank": 15
+    }
+  ],
+  "all_pairwise_interactions": [
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.17749648169731003,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Sleep Duration",
+      "rank": 1
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.043574637442146555,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 2
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.04191268862962113,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 3
+    },
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.03819196429805042,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 4
+    },
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.02440270305060611,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 5
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.023105186750638756,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 6
+    },
+    {
+      "feature_a": "Daily_Unlocks",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.020527554036808816,
+      "feature_a_display": "Daily Device Unlocks",
+      "feature_b_display": "Sleep Duration",
+      "rank": 7
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.019308311195355688,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Sleep Duration",
+      "rank": 8
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01900191067037821,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Sleep Duration",
+      "rank": 9
+    },
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.01711815161747819,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 10
+    },
+    {
+      "feature_a": "Physical_Activity_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01693774431050176,
+      "feature_a_display": "Daily Physical Activity",
+      "feature_b_display": "Sleep Duration",
+      "rank": 11
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.016379735393107935,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Sleep Duration",
+      "rank": 12
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Most_Used_Platform",
+      "mean_abs_interaction": 0.015693193835947916,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Most Used Social Platform",
+      "rank": 13
+    },
+    {
+      "feature_a": "Study_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01459410666499529,
+      "feature_a_display": "Daily Study Duration",
+      "feature_b_display": "Sleep Duration",
+      "rank": 14
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.01352636031893091,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Sleep Duration",
+      "rank": 15
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.011036054053976067,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 16
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Country",
+      "mean_abs_interaction": 0.010756269653810858,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Country of Residence",
+      "rank": 17
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.010024939746221938,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 18
+    },
+    {
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.008067789364110107,
+      "feature_a_display": "Daily Social Media Usage",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 19
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.007755021202369383,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 20
+    },
+    {
+      "feature_a": "Daily_Unlocks",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.007271061609301929,
+      "feature_a_display": "Daily Device Unlocks",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 21
+    },
+    {
+      "feature_a": "Daily_Unlocks",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.006940697283588096,
+      "feature_a_display": "Daily Device Unlocks",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 22
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.0066165483280399935,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 23
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.006151026897846965,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 24
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.005586187133004427,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 25
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.00551823914751548,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 26
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.0051516806136069695,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 27
+    },
+    {
+      "feature_a": "Sleep_Hours_Per_Night",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0049276991315077515,
+      "feature_a_display": "Sleep Duration",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 28
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Purpose_Of_Use",
+      "mean_abs_interaction": 0.004813588222788113,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Primary Purpose of Use",
+      "rank": 29
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Most_Used_Platform",
+      "mean_abs_interaction": 0.004727936569494888,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Most Used Social Platform",
+      "rank": 30
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.004538001107881538,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 31
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.004533423474139388,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 32
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.004348767398405309,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Sleep Duration",
+      "rank": 33
+    },
+    {
+      "feature_a": "Study_Hours",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.004321019081649088,
+      "feature_a_display": "Daily Study Duration",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 34
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.0038793162050800695,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 35
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Purpose_Of_Use",
+      "mean_abs_interaction": 0.0038699979144523034,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Primary Purpose of Use",
+      "rank": 36
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.0038068732732911385,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 37
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "mean_abs_interaction": 0.0037982123276201563,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Sleep Duration",
+      "rank": 38
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Purpose_Of_Use",
+      "mean_abs_interaction": 0.003685639452032297,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Primary Purpose of Use",
+      "rank": 39
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Avg_Daily_Usage_Hours",
+      "mean_abs_interaction": 0.003656087726741396,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Daily Social Media Usage",
+      "rank": 40
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.0031736844590916345,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 41
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Most_Used_Platform",
+      "mean_abs_interaction": 0.0024632952531537093,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Most Used Social Platform",
+      "rank": 42
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.002329817013697954,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 43
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.0018246325747001927,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 44
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Daily_Unlocks",
+      "mean_abs_interaction": 0.0017884224732390326,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Daily Device Unlocks",
+      "rank": 45
+    },
+    {
+      "feature_a": "Daily_Unlocks",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0017353332868316244,
+      "feature_a_display": "Daily Device Unlocks",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 46
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.0015284045672289384,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 47
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Academic_Level",
+      "mean_abs_interaction": 0.001500996574102691,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Academic Level",
+      "rank": 48
+    },
+    {
+      "feature_a": "Purpose_Of_Use",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0014328735788646774,
+      "feature_a_display": "Primary Purpose of Use",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 49
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Country",
+      "mean_abs_interaction": 0.001394453879679727,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Country of Residence",
+      "rank": 50
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.0012254592568878406,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 51
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Most_Used_Platform",
+      "mean_abs_interaction": 0.0011732508936033797,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Most Used Social Platform",
+      "rank": 52
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Gender",
+      "mean_abs_interaction": 0.0011406840728269002,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Gender",
+      "rank": 53
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Purpose_Of_Use",
+      "mean_abs_interaction": 0.0011076419346926938,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Primary Purpose of Use",
+      "rank": 54
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Physical_Activity_Hours",
+      "mean_abs_interaction": 0.001082737898565717,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Daily Physical Activity",
+      "rank": 55
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Academic_Level",
+      "mean_abs_interaction": 0.0010250240177721492,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Academic Level",
+      "rank": 56
+    },
+    {
+      "feature_a": "Country",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0010204692079668035,
+      "feature_a_display": "Country of Residence",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 57
+    },
+    {
+      "feature_a": "Physical_Activity_Hours",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0009724119904803615,
+      "feature_a_display": "Daily Physical Activity",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 58
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Purpose_Of_Use",
+      "mean_abs_interaction": 0.0009563268417252463,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Primary Purpose of Use",
+      "rank": 59
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Study_Hours",
+      "mean_abs_interaction": 0.0007813536830926577,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Daily Study Duration",
+      "rank": 60
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0007503496305057047,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 61
+    },
+    {
+      "feature_a": "Most_Used_Platform",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0007370313399992503,
+      "feature_a_display": "Most Used Social Platform",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 62
+    },
+    {
+      "feature_a": "Study_Hours",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.000729803772448396,
+      "feature_a_display": "Daily Study Duration",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 63
+    },
+    {
+      "feature_a": "Gender",
+      "feature_b": "Academic_Level",
+      "mean_abs_interaction": 0.0006147121197549139,
+      "feature_a_display": "Gender",
+      "feature_b_display": "Academic Level",
+      "rank": 64
+    },
+    {
+      "feature_a": "Age",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0005653517026536026,
+      "feature_a_display": "Student Age",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 65
+    },
+    {
+      "feature_a": "Academic_Level",
+      "feature_b": "Stress_Level",
+      "mean_abs_interaction": 0.0004281457857563246,
+      "feature_a_display": "Academic Level",
+      "feature_b_display": "Self-Reported Stress Level",
+      "rank": 66
+    }
+  ],
+  "main_effects": [
+    {
+      "feature": "Avg_Daily_Usage_Hours",
+      "display_name": "Daily Social Media Usage",
+      "mean_abs_main_effect": 1.0638845326145268
+    },
+    {
+      "feature": "Sleep_Hours_Per_Night",
+      "display_name": "Sleep Duration",
+      "mean_abs_main_effect": 0.34506791942727466
+    },
+    {
+      "feature": "Daily_Unlocks",
+      "display_name": "Daily Device Unlocks",
+      "mean_abs_main_effect": 0.06624560397905338
+    },
+    {
+      "feature": "Purpose_Of_Use",
+      "display_name": "Primary Purpose of Use",
+      "mean_abs_main_effect": 0.05485250538708185
+    },
+    {
+      "feature": "Country",
+      "display_name": "Country of Residence",
+      "mean_abs_main_effect": 0.03986986060216691
+    },
+    {
+      "feature": "Most_Used_Platform",
+      "display_name": "Most Used Social Platform",
+      "mean_abs_main_effect": 0.027050328757575536
+    },
+    {
+      "feature": "Physical_Activity_Hours",
+      "display_name": "Daily Physical Activity",
+      "mean_abs_main_effect": 0.0258395330154287
+    },
+    {
+      "feature": "Study_Hours",
+      "display_name": "Daily Study Duration",
+      "mean_abs_main_effect": 0.02323942037220744
+    },
+    {
+      "feature": "Age",
+      "display_name": "Student Age",
+      "mean_abs_main_effect": 0.02097594880567544
+    },
+    {
+      "feature": "Stress_Level",
+      "display_name": "Self-Reported Stress Level",
+      "mean_abs_main_effect": 0.009231270035942953
+    },
+    {
+      "feature": "Gender",
+      "display_name": "Gender",
+      "mean_abs_main_effect": 0.00784688898642007
+    },
+    {
+      "feature": "Academic_Level",
+      "display_name": "Academic Level",
+      "mean_abs_main_effect": 0.007575599245614186
+    }
+  ],
+  "candidate_pair_profiles": [
+    {
+      "pair": "Avg_Daily_Usage_Hours x Sleep_Hours_Per_Night",
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "rank": 1,
+      "mean_abs_interaction": 0.17749648169731003,
+      "sample_interaction_values": [
+        -0.08842692927823302,
+        0.05040596274758861,
+        0.13589581791936564,
+        -0.49515659919029675,
+        0.09186113901853821,
+        0.26836832811534134,
+        0.009638729569488936,
+        0.08889055070346964,
+        0.260280812708959,
+        0.2860399477218192
+      ],
+      "interpretation_note": "Off-diagonal TreeSHAP interaction between Avg_Daily_Usage_Hours and Sleep_Hours_Per_Night. Measures pure non-additive contribution in the fitted Random Forest."
+    },
+    {
+      "pair": "Avg_Daily_Usage_Hours x Daily_Unlocks",
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Daily_Unlocks",
+      "rank": 4,
+      "mean_abs_interaction": 0.03819196429805042,
+      "sample_interaction_values": [
+        0.12371619930794651,
+        0.031762939033724055,
+        0.027277641019114205,
+        0.017023440395447585,
+        -0.019175808279330925,
+        0.03031174065099676,
+        -0.06099717029031761,
+        0.01619040450227545,
+        0.013377086164288194,
+        0.04208721333706292
+      ],
+      "interpretation_note": "Off-diagonal TreeSHAP interaction between Avg_Daily_Usage_Hours and Daily_Unlocks. Measures pure non-additive contribution in the fitted Random Forest."
+    },
+    {
+      "pair": "Avg_Daily_Usage_Hours x Physical_Activity_Hours",
+      "feature_a": "Avg_Daily_Usage_Hours",
+      "feature_b": "Physical_Activity_Hours",
+      "rank": 10,
+      "mean_abs_interaction": 0.01711815161747819,
+      "sample_interaction_values": [
+        -0.02485598270574262,
+        -0.01030163343960474,
+        -0.0007500659039947076,
+        -0.02501115259260941,
+        0.003433261516199993,
+        0.04109863098920335,
+        -0.009471408876005722,
+        0.020779139452544004,
+        0.0019262651674554587,
+        0.03355397553142192
+      ],
+      "interpretation_note": "Off-diagonal TreeSHAP interaction between Avg_Daily_Usage_Hours and Physical_Activity_Hours. Measures pure non-additive contribution in the fitted Random Forest."
+    },
+    {
+      "pair": "Sleep_Hours_Per_Night x Stress_Level",
+      "feature_a": "Sleep_Hours_Per_Night",
+      "feature_b": "Stress_Level",
+      "rank": 28,
+      "mean_abs_interaction": 0.0049276991315077515,
+      "sample_interaction_values": [
+        0.0055492557085673345,
+        -0.014792684056979312,
+        0.0034276094996105438,
+        0.002154916160709813,
+        0.004275053844151676,
+        0.0007203250005035793,
+        -0.010446397136411992,
+        -0.005331353210883384,
+        0.0011830219328662253,
+        0.001396374764393649
+      ],
+      "interpretation_note": "Off-diagonal TreeSHAP interaction between Sleep_Hours_Per_Night and Stress_Level. Measures pure non-additive contribution in the fitted Random Forest."
+    },
+    {
+      "pair": "Study_Hours x Sleep_Hours_Per_Night",
+      "feature_a": "Study_Hours",
+      "feature_b": "Sleep_Hours_Per_Night",
+      "rank": 14,
+      "mean_abs_interaction": 0.01459410666499529,
+      "sample_interaction_values": [
+        0.01199936059946073,
+        -0.01727301846409956,
+        -0.012625570423160492,
+        -0.016311083362014363,
+        -0.012684125992182778,
+        0.04213958987382777,
+        0.0035519284509310366,
+        -0.016877143599567795,
+        -0.0008968477159073985,
+        0.011582398168800974
+      ],
+      "interpretation_note": "Off-diagonal TreeSHAP interaction between Study_Hours and Sleep_Hours_Per_Night. Measures pure non-additive contribution in the fitted Random Forest."
+    }
+  ],
+  "non_causal_disclaimer": "Model attribution describes how feature values shift this model's prediction relative to its expected baseline (6.22). It does not establish causality, real-world impact, or clinical assessments."
+}

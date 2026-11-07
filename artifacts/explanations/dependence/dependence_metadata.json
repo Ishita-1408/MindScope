@@ -1,0 +1,28 @@
+{
+  "milestone": "Phase 3, Step 3.4 \u2014 Feature Dependence & Interaction Analysis",
+  "generated_at": "2026-11-07T12:12:50.259162+00:00",
+  "platform": {
+    "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "governance": {
+    "sealed_holdout_accessed": false,
+    "models_retrained": false,
+    "training_partition_size": 3498,
+    "dependence_sample_size": 500,
+    "interaction_sample_size": 10,
+    "random_state": 42
+  },
+  "artifacts_generated": [
+    "dependence_summary.json",
+    "interaction_benchmark.json",
+    "interaction_analysis.json",
+    "numerical_dependence_grid.png",
+    "dependence_usage_hours.png",
+    "dependence_sleep_hours.png",
+    "dependence_daily_unlocks.png",
+    "categorical_attribution_distributions.png",
+    "interaction_matrix_heatmap.png",
+    "interaction_candidate_pairs.png"
+  ]
+}

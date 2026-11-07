@@ -1,0 +1,57 @@
+{
+  "benchmarks": [
+    {
+      "sample_size": 1,
+      "execution_time_seconds": 7.9628,
+      "seconds_per_sample": 7.9628,
+      "output_shape": [
+        1,
+        38,
+        38
+      ],
+      "is_symmetric": true,
+      "max_asymmetry": 3.8185600514939466e-16,
+      "max_additivity_error": 6.328271240363392e-15
+    },
+    {
+      "sample_size": 2,
+      "execution_time_seconds": 17.0968,
+      "seconds_per_sample": 8.5484,
+      "output_shape": [
+        2,
+        38,
+        38
+      ],
+      "is_symmetric": true,
+      "max_asymmetry": 3.8185600514939466e-16,
+      "max_additivity_error": 6.328271240363392e-15
+    },
+    {
+      "sample_size": 5,
+      "execution_time_seconds": 40.2433,
+      "seconds_per_sample": 8.0487,
+      "output_shape": [
+        5,
+        38,
+        38
+      ],
+      "is_symmetric": true,
+      "max_asymmetry": 8.959846753420209e-16,
+      "max_additivity_error": 1.9761969838327786e-14
+    }
+  ],
+  "scaling_projections": {
+    "avg_seconds_per_observation": 8.19,
+    "projected_seconds_n50": 409.3,
+    "projected_seconds_n100": 818.7,
+    "projected_seconds_n500": 4093.3,
+    "projected_hours_n500": 1.14,
+    "projected_seconds_full_train_3498": 28636.8,
+    "projected_hours_full_train_3498": 7.95,
+    "recommended_sample_size": 10,
+    "is_full_interaction_feasible": false,
+    "feasibility_justification": "Computing full 38x38 TreeSHAP interaction values requires approximately 8.2 seconds per observation. Running on the full 3,498 training records would require ~8.0 hours, and even a 500-record sample would require ~1.1 hours. Therefore, full population-scale interaction computation is computationally prohibitive, and a targeted deterministic sample (N=10) is recommended for interaction analysis."
+  },
+  "tree_count": 150,
+  "transformed_features": 38
+}
