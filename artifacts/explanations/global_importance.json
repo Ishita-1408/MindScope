@@ -1,0 +1,122 @@
+[
+  {
+    "feature": "Avg_Daily_Usage_Hours",
+    "mean_abs_shap": 0.7540842387736452,
+    "mean_signed_shap": -0.05826804650136929,
+    "median_abs_shap": 0.8295536777457535,
+    "std_shap": 0.8548742320687295,
+    "min_shap": -1.3596726842675568,
+    "max_shap": 1.8884045866114363,
+    "rank": 1
+  },
+  {
+    "feature": "Sleep_Hours_Per_Night",
+    "mean_abs_shap": 0.2838283511930019,
+    "mean_signed_shap": 0.008713276598168701,
+    "median_abs_shap": 0.28296511613345765,
+    "std_shap": 0.31195468505681223,
+    "min_shap": -0.6470430279104592,
+    "max_shap": 0.6449614844764793,
+    "rank": 2
+  },
+  {
+    "feature": "Daily_Unlocks",
+    "mean_abs_shap": 0.05670881896059468,
+    "mean_signed_shap": -0.015835883018646944,
+    "median_abs_shap": 0.03964631389608961,
+    "std_shap": 0.07995497611127007,
+    "min_shap": -0.5134902636315872,
+    "max_shap": 0.31254631662746696,
+    "rank": 3
+  },
+  {
+    "feature": "Purpose_Of_Use",
+    "mean_abs_shap": 0.05137417413478253,
+    "mean_signed_shap": 0.004276052781548624,
+    "median_abs_shap": 0.03670702148660651,
+    "std_shap": 0.06909720488557188,
+    "min_shap": -0.20040231598088637,
+    "max_shap": 0.3488553776477761,
+    "rank": 4
+  },
+  {
+    "feature": "Country",
+    "mean_abs_shap": 0.046218106051604535,
+    "mean_signed_shap": 0.003055801363627361,
+    "median_abs_shap": 0.023075454992182973,
+    "std_shap": 0.09414862069652269,
+    "min_shap": -0.8542076677646805,
+    "max_shap": 0.48527953151609504,
+    "rank": 5
+  },
+  {
+    "feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.0453665903156514,
+    "mean_signed_shap": -0.00014803875710813174,
+    "median_abs_shap": 0.03483477373158445,
+    "std_shap": 0.06359168155966913,
+    "min_shap": -0.21537889313135594,
+    "max_shap": 0.2873664949891799,
+    "rank": 6
+  },
+  {
+    "feature": "Physical_Activity_Hours",
+    "mean_abs_shap": 0.0300151552839005,
+    "mean_signed_shap": 0.0020782810110692865,
+    "median_abs_shap": 0.022906048187403556,
+    "std_shap": 0.04031107470558382,
+    "min_shap": -0.20520258369286606,
+    "max_shap": 0.1523476033352595,
+    "rank": 7
+  },
+  {
+    "feature": "Study_Hours",
+    "mean_abs_shap": 0.029700000382495362,
+    "mean_signed_shap": 0.0028844092782619414,
+    "median_abs_shap": 0.021345347467063167,
+    "std_shap": 0.040860526081803725,
+    "min_shap": -0.18408264930683568,
+    "max_shap": 0.16480926106351787,
+    "rank": 8
+  },
+  {
+    "feature": "Age",
+    "mean_abs_shap": 0.028948272037108713,
+    "mean_signed_shap": 0.0014165530315775686,
+    "median_abs_shap": 0.019408063796213973,
+    "std_shap": 0.04141100092492358,
+    "min_shap": -0.12441799052600751,
+    "max_shap": 0.2544252774761219,
+    "rank": 9
+  },
+  {
+    "feature": "Academic_Level",
+    "mean_abs_shap": 0.01150354170173512,
+    "mean_signed_shap": -9.664995746865167e-05,
+    "median_abs_shap": 0.006215869972780338,
+    "std_shap": 0.019092985963955596,
+    "min_shap": -0.10498924551660749,
+    "max_shap": 0.09670252780072147,
+    "rank": 10
+  },
+  {
+    "feature": "Stress_Level",
+    "mean_abs_shap": 0.010807059900916332,
+    "mean_signed_shap": 0.0056707036683712655,
+    "median_abs_shap": 0.0075060788822015915,
+    "std_shap": 0.01589423667360588,
+    "min_shap": -0.051939143912898215,
+    "max_shap": 0.10966053906078739,
+    "rank": 11
+  },
+  {
+    "feature": "Gender",
+    "mean_abs_shap": 0.009680940411429887,
+    "mean_signed_shap": 0.0006325352136887372,
+    "median_abs_shap": 0.0062568926977070085,
+    "std_shap": 0.013998092634794358,
+    "min_shap": -0.06684135915711306,
+    "max_shap": 0.07274579940415943,
+    "rank": 12
+  }
+]

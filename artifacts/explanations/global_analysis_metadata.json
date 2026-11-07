@@ -1,0 +1,37 @@
+{
+  "analysis_identifier": "mindscope_global_shap_v1",
+  "model_identifier": "mindscope_rf_v1",
+  "model_artifact_path": "artifacts\\models\\mindscope_rf_v1.joblib",
+  "dataset_source": "Student Social Media And Mental Health Impact.csv",
+  "training_partition_total_samples": 3498,
+  "evaluation_sample_size": 500,
+  "sample_selection_method": "Deterministic random sample from X_train using random_state=42",
+  "sealed_holdout_access": false,
+  "base_value_expected_score": 6.215928530588909,
+  "feature_count_original": 12,
+  "feature_count_transformed": 38,
+  "shap_version": "0.52.0",
+  "python_version": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "computation_time_seconds": 85.81,
+  "execution_timestamp_utc": "2026-11-07T11:13:06.434646+00:00",
+  "additivity_verification": {
+    "verified": true,
+    "max_discrepancy_tolerance": 1e-05,
+    "observed_max_discrepancy": 4.263256414560601e-14
+  },
+  "feature_mapping_summary": {
+    "Age": 1,
+    "Gender": 2,
+    "Country": 10,
+    "Academic_Level": 3,
+    "Most_Used_Platform": 12,
+    "Purpose_Of_Use": 4,
+    "Avg_Daily_Usage_Hours": 1,
+    "Daily_Unlocks": 1,
+    "Study_Hours": 1,
+    "Physical_Activity_Hours": 1,
+    "Sleep_Hours_Per_Night": 1,
+    "Stress_Level": 1
+  }
+}

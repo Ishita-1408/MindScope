@@ -1,0 +1,306 @@
+[
+  {
+    "transformed_feature": "standard_numeric__Avg_Daily_Usage_Hours",
+    "parent_feature": "Avg_Daily_Usage_Hours",
+    "mean_abs_shap": 0.7540842387736455,
+    "mean_signed_shap": -0.05826804650136918,
+    "std_shap": 0.8540189299715722,
+    "rank": 1
+  },
+  {
+    "transformed_feature": "standard_numeric__Sleep_Hours_Per_Night",
+    "parent_feature": "Sleep_Hours_Per_Night",
+    "mean_abs_shap": 0.28382835119300204,
+    "mean_signed_shap": 0.008713276598168708,
+    "std_shap": 0.31164257423824027,
+    "rank": 2
+  },
+  {
+    "transformed_feature": "standard_numeric__Daily_Unlocks",
+    "parent_feature": "Daily_Unlocks",
+    "mean_abs_shap": 0.056708818960594674,
+    "mean_signed_shap": -0.015835883018646944,
+    "std_shap": 0.07987498111764318,
+    "rank": 3
+  },
+  {
+    "transformed_feature": "nominal__Purpose_Of_Use_Entertainment",
+    "parent_feature": "Purpose_Of_Use",
+    "mean_abs_shap": 0.04584487227685456,
+    "mean_signed_shap": 0.002685515698896796,
+    "std_shap": 0.06351945321800555,
+    "rank": 4
+  },
+  {
+    "transformed_feature": "physical__Physical_Activity_Hours",
+    "parent_feature": "Physical_Activity_Hours",
+    "mean_abs_shap": 0.03001515528390053,
+    "mean_signed_shap": 0.0020782810110692848,
+    "std_shap": 0.04027074345516012,
+    "rank": 5
+  },
+  {
+    "transformed_feature": "skewed__Study_Hours",
+    "parent_feature": "Study_Hours",
+    "mean_abs_shap": 0.029700000382495352,
+    "mean_signed_shap": 0.0028844092782619396,
+    "std_shap": 0.04081964510500304,
+    "rank": 6
+  },
+  {
+    "transformed_feature": "standard_numeric__Age",
+    "parent_feature": "Age",
+    "mean_abs_shap": 0.02894827203710869,
+    "mean_signed_shap": 0.001416553031577569,
+    "std_shap": 0.04136956919776678,
+    "rank": 7
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_Instagram",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.02360630597572628,
+    "mean_signed_shap": 0.0005840719383893031,
+    "std_shap": 0.03262537398598572,
+    "rank": 8
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_Other",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.012963501034664848,
+    "mean_signed_shap": -0.001630518407672311,
+    "std_shap": 0.02056493892967295,
+    "rank": 9
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_WhatsApp",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.012463203007802697,
+    "mean_signed_shap": -0.0030950298858639603,
+    "std_shap": 0.03353491159416381,
+    "rank": 10
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_Turkey",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.012118059479455427,
+    "mean_signed_shap": 0.001084711235003701,
+    "std_shap": 0.052138392656493435,
+    "rank": 11
+  },
+  {
+    "transformed_feature": "ordinal__Stress_Level",
+    "parent_feature": "Stress_Level",
+    "mean_abs_shap": 0.010807059900916337,
+    "mean_signed_shap": 0.005670703668371263,
+    "std_shap": 0.015878334481856875,
+    "rank": 12
+  },
+  {
+    "transformed_feature": "nominal__Academic_Level_Undergraduate",
+    "parent_feature": "Academic_Level",
+    "mean_abs_shap": 0.009427921483075249,
+    "mean_signed_shap": -0.00034700606031327176,
+    "std_shap": 0.016105835237479948,
+    "rank": 13
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_Mexico",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.008712819909915256,
+    "mean_signed_shap": 0.0022070943838624403,
+    "std_shap": 0.04323296922163285,
+    "rank": 14
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_France",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.008586875487701293,
+    "mean_signed_shap": 6.53568714356286e-05,
+    "std_shap": 0.03930225604684222,
+    "rank": 15
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_TikTok",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.008506308865573345,
+    "mean_signed_shap": -0.000598399875198836,
+    "std_shap": 0.01601550603039448,
+    "rank": 16
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_Twitter",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.007538369573210425,
+    "mean_signed_shap": -0.000577922096438749,
+    "std_shap": 0.019022299833720096,
+    "rank": 17
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_Canada",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.007040955127612085,
+    "mean_signed_shap": -5.6579378937899195e-05,
+    "std_shap": 0.017772286331626478,
+    "rank": 18
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_India",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.005941580313851337,
+    "mean_signed_shap": 0.0021711893027547124,
+    "std_shap": 0.015406249367397245,
+    "rank": 19
+  },
+  {
+    "transformed_feature": "nominal__Purpose_Of_Use_Education",
+    "parent_feature": "Purpose_Of_Use",
+    "mean_abs_shap": 0.005632061626788029,
+    "mean_signed_shap": 0.0014443656680425791,
+    "std_shap": 0.009236832596884157,
+    "rank": 20
+  },
+  {
+    "transformed_feature": "nominal__Gender_Male",
+    "parent_feature": "Gender",
+    "mean_abs_shap": 0.005139983773085516,
+    "mean_signed_shap": 0.0002810804619074256,
+    "std_shap": 0.0073102055800023,
+    "rank": 21
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_YouTube",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.004909636604315371,
+    "mean_signed_shap": 0.0012179093474650176,
+    "std_shap": 0.01298668695275477,
+    "rank": 22
+  },
+  {
+    "transformed_feature": "nominal__Gender_Female",
+    "parent_feature": "Gender",
+    "mean_abs_shap": 0.0048481793739124975,
+    "mean_signed_shap": 0.00035145475178131115,
+    "std_shap": 0.007109002017729522,
+    "rank": 23
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_UK",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.004518302634007616,
+    "mean_signed_shap": -0.00021490175910438534,
+    "std_shap": 0.01681523473373167,
+    "rank": 24
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_LinkedIn",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.003981380771750954,
+    "mean_signed_shap": 0.0006429565088526518,
+    "std_shap": 0.009395702901464522,
+    "rank": 25
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_Snapchat",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.003444853798770498,
+    "mean_signed_shap": -8.677236083737857e-05,
+    "std_shap": 0.007807466704685133,
+    "rank": 26
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_Australia",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.0033974435087571362,
+    "mean_signed_shap": -0.0005644351559946122,
+    "std_shap": 0.012623492203315064,
+    "rank": 27
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_Facebook",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.0029645954551274713,
+    "mean_signed_shap": -0.0002745295673078897,
+    "std_shap": 0.005945597358594044,
+    "rank": 28
+  },
+  {
+    "transformed_feature": "nominal__Purpose_Of_Use_News",
+    "parent_feature": "Purpose_Of_Use",
+    "mean_abs_shap": 0.0027851769947783867,
+    "mean_signed_shap": 0.0001998164948066978,
+    "std_shap": 0.005744433750136586,
+    "rank": 29
+  },
+  {
+    "transformed_feature": "nominal__Purpose_Of_Use_Networking",
+    "parent_feature": "Purpose_Of_Use",
+    "mean_abs_shap": 0.0026283080132170184,
+    "mean_signed_shap": -5.364508019744787e-05,
+    "std_shap": 0.0054598634487134125,
+    "rank": 30
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_KakaoTalk",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.002425935315374277,
+    "mean_signed_shap": 0.0017244590251440425,
+    "std_shap": 0.005317621197943567,
+    "rank": 31
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_USA",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.0020907411589310286,
+    "mean_signed_shap": 0.0004057881335225161,
+    "std_shap": 0.006762236914026989,
+    "rank": 32
+  },
+  {
+    "transformed_feature": "nominal__Academic_Level_Graduate",
+    "parent_feature": "Academic_Level",
+    "mean_abs_shap": 0.001930597394587182,
+    "mean_signed_shap": 0.00019429394657573753,
+    "std_shap": 0.003282322005801402,
+    "rank": 33
+  },
+  {
+    "transformed_feature": "country__Country_Grouped_Germany",
+    "parent_feature": "Country",
+    "mean_abs_shap": 0.0016777922996606069,
+    "mean_signed_shap": -0.0004119038612424269,
+    "std_shap": 0.0045252187088752754,
+    "rank": 34
+  },
+  {
+    "transformed_feature": "nominal__Academic_Level_High School",
+    "parent_feature": "Academic_Level",
+    "mean_abs_shap": 0.0010911410310844604,
+    "mean_signed_shap": 5.606215626888261e-05,
+    "std_shap": 0.002581639206295997,
+    "rank": 35
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_LINE",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.0010759323511990563,
+    "mean_signed_shap": 5.3620354293465264e-05,
+    "std_shap": 0.005044226256567936,
+    "rank": 36
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_VKontakte",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 0.0006801038692743331,
+    "mean_signed_shap": 0.00023552179804132346,
+    "std_shap": 0.0032884682060595888,
+    "rank": 37
+  },
+  {
+    "transformed_feature": "nominal__Most_Used_Platform_WeChat",
+    "parent_feature": "Most_Used_Platform",
+    "mean_abs_shap": 4.182337298219384e-05,
+    "mean_signed_shap": 2.6076056352881155e-05,
+    "std_shap": 0.00010097536503888938,
+    "rank": 38
+  }
+]

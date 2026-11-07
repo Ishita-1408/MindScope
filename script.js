@@ -33,6 +33,10 @@
   const errorLabelEl = document.getElementById("error-label");
   const errorCopyEl = document.getElementById("error-copy");
 
+  const waterfallCard = document.getElementById("waterfall-card");
+  const waterfallBadge = document.getElementById("waterfall-badge");
+  const waterfallList = document.getElementById("waterfall-list");
+
   const GAUGE_ARC_LENGTH = 314; // approx pi * r(100)
   let isSubmitting = false;
 
@@ -206,7 +210,59 @@
     };
   }
 
-  function renderResult(score) {
+  function renderWaterfall(explanation) {
+    if (!waterfallCard || !waterfallList) return;
+    if (!explanation || !Array.isArray(explanation.feature_attributions)) {
+      waterfallCard.hidden = true;
+      return;
+    }
+
+    if (waterfallBadge && typeof explanation.expected_baseline_score === "number") {
+      waterfallBadge.textContent = `Expected Model Baseline: ${explanation.expected_baseline_score.toFixed(2)}`;
+    }
+
+    waterfallList.innerHTML = "";
+    explanation.feature_attributions.forEach((attr) => {
+      const row = document.createElement("div");
+      row.className = "waterfall-row";
+
+      const left = document.createElement("div");
+      left.className = "waterfall-row-left";
+
+      const nameEl = document.createElement("span");
+      nameEl.className = "waterfall-feat-name";
+      nameEl.textContent = attr.display_name || attr.feature;
+
+      const valEl = document.createElement("span");
+      valEl.className = "waterfall-feat-val";
+      valEl.textContent = attr.formatted_value || String(attr.value);
+
+      left.appendChild(nameEl);
+      left.appendChild(valEl);
+
+      const right = document.createElement("div");
+      right.className = "waterfall-row-right";
+
+      const pill = document.createElement("span");
+      const isPos = attr.shap_value >= 0;
+      pill.className = `waterfall-pill ${isPos ? "pill-positive" : "pill-negative"}`;
+      const arrow = isPos ? "↑ +" : "↓ −";
+      const absVal = Math.abs(attr.shap_value).toFixed(2);
+      pill.textContent = `${arrow}${absVal}`;
+      pill.title = isPos
+        ? "Moves the model prediction above its expected baseline."
+        : "Moves the model prediction below its expected baseline.";
+
+      right.appendChild(pill);
+      row.appendChild(left);
+      row.appendChild(right);
+      waterfallList.appendChild(row);
+    });
+
+    waterfallCard.hidden = false;
+  }
+
+  function renderResult(score, explanation) {
     const clamped = Math.max(0, Math.min(10, score));
     const { label, context } = bandFor(clamped);
 
@@ -225,6 +281,7 @@
       });
     }
 
+    renderWaterfall(explanation);
     showState("result");
   }
 
@@ -321,7 +378,22 @@
           return;
         }
 
-        renderResult(body.predicted_mental_health_score);
+        // Fetch local XAI explanation asynchronously
+        let explanationData = null;
+        try {
+          const expRes = await fetch(`${API_BASE}/explain`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+          if (expRes.ok) {
+            explanationData = await expRes.json();
+          }
+        } catch {
+          explanationData = null;
+        }
+
+        renderResult(body.predicted_mental_health_score, explanationData);
       } catch (err) {
         renderError(
           "Can't reach the server",
@@ -341,12 +413,14 @@
 
   if (resetBtn) {
     resetBtn.addEventListener("click", () => {
+      if (waterfallCard) waterfallCard.hidden = true;
       showState("idle");
     });
   }
 
   if (errorRetryBtn) {
     errorRetryBtn.addEventListener("click", () => {
+      if (waterfallCard) waterfallCard.hidden = true;
       showState("idle");
     });
   }

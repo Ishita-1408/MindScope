@@ -213,6 +213,21 @@
         </div>
         <p class="score-band" id="score-band">—</p>
         <p class="score-context" id="score-context"></p>
+
+        <!-- LOCAL XAI WATERFALL BREAKDOWN -->
+        <div class="waterfall-card" id="waterfall-card" hidden>
+          <div class="waterfall-head">
+            <span class="waterfall-title">Feature Attributions</span>
+            <span class="waterfall-badge" id="waterfall-badge">Expected Model Baseline: 6.22</span>
+          </div>
+          <div class="waterfall-legend">
+            <div class="legend-line"><span class="legend-icon sym-pos">↑ +</span> Moves the model prediction above its expected baseline.</div>
+            <div class="legend-line"><span class="legend-icon sym-neg">↓ −</span> Moves the model prediction below its expected baseline.</div>
+          </div>
+          <div class="waterfall-list" id="waterfall-list"></div>
+          <p class="waterfall-disclaimer">Contribution direction describes how a feature shifts this model's prediction relative to its expected baseline. It does not indicate better or worse mental health, establish causality, or provide a clinical assessment.</p>
+        </div>
+
         <button type="button" class="reset-btn" id="reset-btn">Run another read</button>
       </div>
 
